@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -AlRa ./* | grep "^d" | wc -l
+ls -lA | grep "^d" | wc -l
