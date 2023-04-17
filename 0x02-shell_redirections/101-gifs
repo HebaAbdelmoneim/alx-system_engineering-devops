@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name '*.gif'| ls -v
+find . -type f -name '*.gif' -printf "%/\n"
