@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -c 1|echo $(cat)|tr -d " \t\r"
