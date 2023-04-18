@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | paste -s | tr -d "\t\r"
+cut -c 1 | echo $(cat) | tr -d "\t\r"
